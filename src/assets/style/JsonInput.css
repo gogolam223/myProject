@@ -1,0 +1,21 @@
+.json-input > button {
+  background-color: transparent;
+  padding: 15px;
+  margin: 10px auto 30px auto;
+  border: 2px solid #1976d2;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #1976d2;
+}
+.json-input > button:active {
+  background-color: lightblue;
+}
+
+.json-input > button.disabled {
+  cursor: not-allowed;
+  border: 2px solid gray;
+  color: gray;
+}
+.json-input > button.disabled:active {
+  background-color: transparent;
+}

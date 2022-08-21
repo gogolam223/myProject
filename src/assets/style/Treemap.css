@@ -1,0 +1,18 @@
+.treemap-row {
+  display: flex;
+  flex-direction: row;
+}
+.treemap-item {
+  height: 90px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+.treemap-item > h3,
+.treemap-item > p {
+  margin: 0;
+}
